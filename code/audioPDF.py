@@ -15,5 +15,5 @@ for text in pdf:
     string_of_text += text
 
 # almacenar archivo en variable
-final_file = gTTS(text=string_of_text, lang='es')
+final_file = gTTS(text=string_of_text, lang='es') #currently the language is set to 'es' wich means spanish, if you want to change it to english just use 'en' instead
 final_file.save("AudioPDF.mp3")  # guardar archivo en la computadora
